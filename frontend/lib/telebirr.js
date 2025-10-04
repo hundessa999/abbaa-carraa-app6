@@ -1,0 +1,1 @@
+export async function verifyTelebirrPayment(token,expectedAmount){ if(!token) return {success:false}; if(token==='TEST-SUCCESS') return {success:true,transactionId:'SIM-'+Date.now()}; return {success:false}; }

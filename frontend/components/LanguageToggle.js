@@ -1,0 +1,1 @@
+import {useRouter} from 'next/router'; export default function LanguageToggle(){const r=useRouter();return (<select onChange={e=>r.push(r.pathname,r.asPath,{locale:e.target.value})} defaultValue={r.locale}><option value='en'>English</option><option value='am'>አማርኛ</option></select>);}

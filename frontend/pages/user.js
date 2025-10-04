@@ -1,0 +1,1 @@
+export default function User(){return <div style={{padding:20}}><h2>User Dashboard (Demo)</h2></div>; }

@@ -1,0 +1,1 @@
+import Link from 'next/link'; export default function Navbar(){return (<nav style={{padding:12,background:'#222'}}><Link href='/'><a style={{color:'#fff',marginRight:10}}>Home</a></Link><Link href='/signup'><a style={{color:'#fff',marginRight:10}}>Sign Up</a></Link></nav>);} 

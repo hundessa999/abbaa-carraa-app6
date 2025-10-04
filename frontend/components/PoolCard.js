@@ -1,0 +1,1 @@
+export default function PoolCard({pool}){return (<div style={{border:'1px solid #ddd',padding:12}}><h3>{pool.item_name}</h3></div>);} 

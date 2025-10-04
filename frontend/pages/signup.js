@@ -1,0 +1,1 @@
+export default function Signup(){return <div style={{padding:20}}><h2>Sign Up (Demo)</h2></div>; }

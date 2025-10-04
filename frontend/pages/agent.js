@@ -1,0 +1,1 @@
+export default function Agent(){return <div style={{padding:20}}><h2>Agent Dashboard (Demo)</h2></div>; }
